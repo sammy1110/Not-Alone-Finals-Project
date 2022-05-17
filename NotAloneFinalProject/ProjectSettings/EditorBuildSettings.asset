@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: eaef479dda44bef488c8afe58d594de6
   - enabled: 1
-    path: Assets/Scenes/Intro Video.unity
+    path: Assets/Scenes/Intro.unity
     guid: 0639f5cee4d7a9b4eb553d763f9becf1
   - enabled: 0
     path: Assets/Scenes/Tutorial.unity
