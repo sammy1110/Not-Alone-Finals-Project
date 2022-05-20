@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: c4937f9571071714aa216aba60cbfa60
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8550497035995272132
+    second: Bob Duncan_0
+  - first:
+      213: 4287597748768862576
+    second: Bob Duncan_1
+  - first:
+      213: 7808279205370646903
+    second: Bob Duncan_2
+  - first:
+      213: -1607317138582750271
+    second: Bob Duncan_3
+  - first:
+      213: -3146036948291595923
+    second: Bob Duncan_4
+  - first:
+      213: 3682816607996302654
+    second: Bob Duncan_5
+  - first:
+      213: 868293907316718077
+    second: Bob Duncan_6
+  - first:
+      213: 3959101651669380620
+    second: Bob Duncan_7
+  - first:
+      213: -4328106179398316467
+    second: Bob Duncan_8
+  - first:
+      213: -2964269926958398819
+    second: Bob Duncan_9
+  - first:
+      213: 5475075014505827904
+    second: Bob Duncan_10
+  - first:
+      213: 8334194845742335446
+    second: Bob Duncan_11
+  - first:
+      213: 1849898351711038255
+    second: Bob Duncan_12
+  - first:
+      213: 7402259451833172738
+    second: Bob Duncan_13
+  - first:
+      213: 1560084042651019326
+    second: Bob Duncan_14
+  - first:
+      213: 4969585270508632858
+    second: Bob Duncan_15
+  - first:
+      213: -3525310519173762888
+    second: Bob Duncan_16
+  - first:
+      213: 9187888820063343559
+    second: Bob Duncan_17
+  - first:
+      213: 2290275749897617688
+    second: Bob Duncan_18
+  - first:
+      213: -5307891359484075585
+    second: Bob Duncan_19
+  - first:
+      213: -8452816976888835213
+    second: Bob Duncan_20
+  - first:
+      213: 3821858811764109113
+    second: Bob Duncan_21
+  - first:
+      213: -6360237593050970244
+    second: Bob Duncan_22
+  - first:
+      213: 2038903219626718908
+    second: Bob Duncan_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +113,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +147,231 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bob Duncan_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ca87c8f38865980800000000000000
+      internalID: -8550497035995272132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071f1239f6b908b30800000000000000
+      internalID: 4287597748768862576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771df2731949c5c60800000000000000
+      internalID: 7808279205370646903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbb0611499a1b9e0800000000000000
+      internalID: -1607317138582750271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6153de50180754d0800000000000000
+      internalID: -3146036948291595923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35578c413efb1330800000000000000
+      internalID: 3682816607996302654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9bf3255bccc0c00800000000000000
+      internalID: 868293907316718077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_7
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e6a69d9fd81f630800000000000000
+      internalID: 3959101651669380620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2000
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e4ac27c5a7fe3c0800000000000000
+      internalID: -4328106179398316467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob Duncan_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2000
+        height: 2000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d928541f43cccd6d0800000000000000
+      internalID: -2964269926958398819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
