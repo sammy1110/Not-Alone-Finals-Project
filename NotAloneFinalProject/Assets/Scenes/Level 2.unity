@@ -220,7 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 820170140}
   - component: {fileID: 820170139}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: land3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,6 +508,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 9
+  platformsLayerMask:
+    serializedVersion: 2
+    m_Bits: 4096
   bulletPrefab: {fileID: 7078912347508570869, guid: 91e226546024c824984f64018ebe8155, type: 3}
 --- !u!61 &1498475887
 BoxCollider2D:
@@ -568,7 +571,7 @@ GameObject:
   - component: {fileID: 1854107747}
   - component: {fileID: 1854107746}
   - component: {fileID: 1854107745}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: land2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +701,7 @@ GameObject:
   - component: {fileID: 1866783584}
   - component: {fileID: 1866783585}
   - component: {fileID: 1866783586}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Ground 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -952,7 +955,7 @@ GameObject:
   - component: {fileID: 2106403455}
   - component: {fileID: 2106403454}
   - component: {fileID: 2106403453}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: land2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
