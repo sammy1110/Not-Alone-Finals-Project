@@ -1,7 +1,70 @@
 fileFormatVersion: 2
 guid: fb887afb2420089498dc8d45453b27ea
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7103006889392670617
+    second: LZ5_0
+  - first:
+      213: -1570288538799720814
+    second: LZ5_1
+  - first:
+      213: 6810853503793839105
+    second: LZ5_2
+  - first:
+      213: 7411458151484824959
+    second: LZ5_3
+  - first:
+      213: -3050698607235874341
+    second: LZ5_4
+  - first:
+      213: 6928086803156204052
+    second: LZ5_5
+  - first:
+      213: 8963562781913321366
+    second: LZ5_6
+  - first:
+      213: 7921689284398805470
+    second: LZ5_7
+  - first:
+      213: 9017780318655438022
+    second: LZ5_8
+  - first:
+      213: 7350589829287806002
+    second: LZ5_9
+  - first:
+      213: 4276480673929890928
+    second: LZ5_10
+  - first:
+      213: 7679326522194334578
+    second: LZ5_11
+  - first:
+      213: -8359247769379589678
+    second: LZ5_12
+  - first:
+      213: -8239658591867170795
+    second: LZ5_13
+  - first:
+      213: 7666978302318003767
+    second: LZ5_14
+  - first:
+      213: 4776798825153668816
+    second: LZ5_15
+  - first:
+      213: -937554324898094371
+    second: LZ5_16
+  - first:
+      213: -6510576821063578366
+    second: LZ5_17
+  - first:
+      213: 3638993248883490911
+    second: LZ5_18
+  - first:
+      213: -6483654217547732154
+    second: LZ5_19
+  - first:
+      213: 2604820005470482928
+    second: LZ5_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +104,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +138,462 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: LZ5_0
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 8215
+        width: 572
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997076fe123f29260800000000000000
+      internalID: 7103006889392670617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_1
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 8215
+        width: 576
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b9f9c4e6353ae0800000000000000
+      internalID: -1570288538799720814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_2
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 8215
+        width: 572
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c3bde1d23058e50800000000000000
+      internalID: 6810853503793839105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_3
+      rect:
+        serializedVersion: 2
+        x: 6755
+        y: 8215
+        width: 572
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d1de2dbe9cad660800000000000000
+      internalID: 7411458151484824959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_4
+      rect:
+        serializedVersion: 2
+        x: 8753
+        y: 8215
+        width: 571
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd14deea7cdb9a5d0800000000000000
+      internalID: -3050698607235874341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_5
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 6213
+        width: 611
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a723bad32852060800000000000000
+      internalID: 6928086803156204052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_6
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 6213
+        width: 654
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f0bd1fbd8f46c70800000000000000
+      internalID: 8963562781913321366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_7
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 6213
+        width: 674
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1fb99ee6e7fed60800000000000000
+      internalID: 7921689284398805470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_8
+      rect:
+        serializedVersion: 2
+        x: 6755
+        y: 6213
+        width: 713
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc57fbeb67952d70800000000000000
+      internalID: 9017780318655438022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_9
+      rect:
+        serializedVersion: 2
+        x: 8753
+        y: 6213
+        width: 790
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2348c40318a820660800000000000000
+      internalID: 7350589829287806002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_10
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 4212
+        width: 952
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c0a62e38c195b30800000000000000
+      internalID: 4276480673929890928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_11
+      rect:
+        serializedVersion: 2
+        x: 2752
+        y: 4212
+        width: 556
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27311adf8c2729a60800000000000000
+      internalID: 7679326522194334578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_12
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 4212
+        width: 572
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d137a4617cfdfb80800000000000000
+      internalID: -8359247769379589678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_13
+      rect:
+        serializedVersion: 2
+        x: 6755
+        y: 4212
+        width: 630
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51013419a2ad6ad80800000000000000
+      internalID: -8239658591867170795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_14
+      rect:
+        serializedVersion: 2
+        x: 8753
+        y: 4212
+        width: 634
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736ca420524966a60800000000000000
+      internalID: 7666978302318003767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_15
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 2214
+        width: 454
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6a9c019399a4240800000000000000
+      internalID: 4776798825153668816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_16
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 2214
+        width: 488
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd261d21f432df2f0800000000000000
+      internalID: -937554324898094371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_17
+      rect:
+        serializedVersion: 2
+        x: 4773
+        y: 2214
+        width: 493
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d0d9130e8c5a5a0800000000000000
+      internalID: -6510576821063578366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_18
+      rect:
+        serializedVersion: 2
+        x: 6794
+        y: 2214
+        width: 513
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50ceb3641d408230800000000000000
+      internalID: 3638993248883490911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_19
+      rect:
+        serializedVersion: 2
+        x: 8694
+        y: 2214
+        width: 693
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64baa9c47de6506a0800000000000000
+      internalID: -6483654217547732154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LZ5_20
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 212
+        width: 688
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f136e97efd262420800000000000000
+      internalID: 2604820005470482928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
