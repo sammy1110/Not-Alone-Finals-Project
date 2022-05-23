@@ -18,7 +18,7 @@ TagManager:
   - Bullet
   - Confiner
   - Platform
-  - 
+  - ground
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 
+  - name: Background
     uniqueID: 2283101677
+    locked: 0
+  - name: Foreground
+    uniqueID: 1598264555
     locked: 0

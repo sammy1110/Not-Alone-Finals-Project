@@ -10,9 +10,10 @@ public class Character2DController : MonoBehaviour
 
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxcollider2d;
-   
 
-    
+    public int maxHealth = 100;
+    int currentHealth;
+    public int health { get { return currentHealth; } }
 
     
 
@@ -21,7 +22,8 @@ public class Character2DController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         boxcollider2d = GetComponent<BoxCollider2D>();
-        
+
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -30,7 +32,7 @@ public class Character2DController : MonoBehaviour
         var movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
 
-       `
+
 
         
     }
@@ -51,5 +53,11 @@ public class Character2DController : MonoBehaviour
         return raycastHit2d.collider !=  null;
        
 
+    }
+
+    public void ChangeHealth(int amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        Debug.Log(currentHealth + "/" + maxHealth);
     }
 }
