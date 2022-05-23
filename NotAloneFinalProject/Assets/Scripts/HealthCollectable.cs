@@ -14,7 +14,7 @@ public class HealthCollectable : MonoBehaviour
             {
                 controller.ChangeHealth(20);
                 Destroy(gameObject);
-                Debug.Log("worked");
+               
             }
                 
         }

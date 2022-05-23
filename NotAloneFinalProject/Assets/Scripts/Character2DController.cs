@@ -23,7 +23,7 @@ public class Character2DController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         boxcollider2d = GetComponent<BoxCollider2D>();
 
-        currentHealth = maxHealth;
+        currentHealth = 1;
     }
 
     // Update is called once per frame
@@ -58,6 +58,6 @@ public class Character2DController : MonoBehaviour
     public void ChangeHealth(int amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        Debug.Log(currentHealth + "/" + maxHealth);
+        UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
 }
