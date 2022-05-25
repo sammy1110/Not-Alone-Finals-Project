@@ -27,14 +27,17 @@ public class Character2DController : MonoBehaviour
     public Projectile ProjectilePrefab;
     public Transform LaunchOffset;
 
+    public float timeInvincible = 2.0f;
+    bool isInvincible;
+    float invincibleTimer;
+
     // Start is called before the first frame update
     private void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         boxcollider2d = GetComponent<BoxCollider2D>();
         //animator = GetComponent<Animator>();
-
-        currentHealth = 1;
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -50,7 +53,7 @@ public class Character2DController : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Instantiate(ProjectilePrefab, LaunchOffset.position, transform.rotation);
         }
@@ -58,6 +61,13 @@ public class Character2DController : MonoBehaviour
         if (!Mathf.Approximately(0, movement))
         {
             transform.rotation = movement < 0 ? Quaternion.Euler(0, 180, 0) : Quaternion.identity;
+        }
+
+        if (isInvincible)
+        {
+            invincibleTimer -= Time.deltaTime;
+            if (invincibleTimer < 0)
+                isInvincible = false;
         }
     }
 

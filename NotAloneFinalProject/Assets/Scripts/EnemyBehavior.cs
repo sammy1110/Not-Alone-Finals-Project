@@ -21,4 +21,14 @@ public class EnemyBehavior : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        Character2DController player = other.gameObject.GetComponent<Character2DController>();
+
+        if (player != null)
+        {
+            player.ChangeHealth(-1);
+        }
+    }
 }

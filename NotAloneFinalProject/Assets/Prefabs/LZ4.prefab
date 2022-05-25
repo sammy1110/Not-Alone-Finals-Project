@@ -146,14 +146,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b332588c771fe3a4dba4c12963b791be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 8300000, guid: ca2a72ca9214eae4f93ef732ab265e94, type: 3}
-  throwSound: {fileID: 8300000, guid: 2b21ea2968e312d42887a702189a5b33, type: 3}
-  timeInvincible: 1
   MovementSpeed: 8
   platformsLayerMask:
     serializedVersion: 2
     m_Bits: 4096
   maxHealth: 100
+  ProjectilePrefab: {fileID: 0}
+  LaunchOffset: {fileID: 0}
+  timeInvincible: 1
 --- !u!114 &2346366814604429260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ Animator:
   m_GameObject: {fileID: 2346366814604429250}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 72dbdff2743419b4fb8ed74289e6c514, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
