@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2346366814604429248}
   - component: {fileID: 2346366814604429249}
   - component: {fileID: 2346366814604429260}
-  - component: {fileID: 1717706524}
+  - component: {fileID: 5233542084414868835}
   m_Layer: 9
   m_Name: LZ4
   m_TagString: Untagged
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collectedClip: {fileID: 8300000, guid: 97bcce851ad86dc46a08e25868488e00, type: 3}
   batteriesText: {fileID: 0}
---- !u!95 &1717706524
+--- !u!95 &5233542084414868835
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ Animator:
   m_GameObject: {fileID: 2346366814604429250}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 72dbdff2743419b4fb8ed74289e6c514, type: 2}
+  m_Controller: {fileID: 9100000, guid: ae68083f9ebacb943b09b56918f24837, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
