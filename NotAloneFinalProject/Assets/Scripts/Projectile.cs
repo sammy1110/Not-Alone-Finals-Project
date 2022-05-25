@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    Rigidbody2D rigidbody2d;
+    public float speed = 16f;
 
-    void Awake()
+    private void Update()
     {
-        rigidbody2d = GetComponent<Rigidbody2D>();
+        transform.position += -transform.right * Time.deltaTime * speed;
     }
 
-    public void Launch(Vector2 direction, float force)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        rigidbody2d.AddForce(direction * force);
-    }
-
-    void Update()
-    {
-        if (transform.position.magnitude > 1000.0f)
+        var enemy = collision.collider.GetComponent<EnemyBehavior>();
+        if (enemy)
         {
-            Destroy(gameObject);
+            enemy.TakeHit(1);
         }
+
+
+        Destroy(gameObject);
     }
 }
