@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
+
     public float Hitpoints;
     public float MaxiHitpoints = 5;
 
@@ -28,7 +29,7 @@ public class EnemyBehavior : MonoBehaviour
 
         if (player != null)
         {
-            player.ChangeHealth(-1);
+            player.ChangeHealth(-20);
         }
     }
 }
