@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1488117118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1488117119}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1488117119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488117118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.81, y: -0.188, z: -1.1403232}
+  m_LocalScale: {x: 0.021910716, y: 0.020922737, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2346366814604429261}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2346366814604429250
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,8 +61,9 @@ Transform:
   m_GameObject: {fileID: 2346366814604429250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.6, y: -5.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_LocalScale: {x: 0.8728, y: 0.8471, z: 1}
+  m_Children:
+  - {fileID: 1488117119}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128,7 +159,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 8
+  m_GravityScale: 12
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -151,9 +182,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   maxHealth: 100
-  ProjectilePrefab: {fileID: 0}
-  LaunchOffset: {fileID: 0}
-  timeInvincible: 1
+  ProjectilePrefab: {fileID: 4181920643098910976, guid: 91e226546024c824984f64018ebe8155, type: 3}
+  LaunchOffset: {fileID: 1488117119}
+  timeInvincible: 2
 --- !u!114 &2346366814604429260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6524c4875d19d52438b0f7d48f85bb11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectedClip: {fileID: 8300000, guid: 97bcce851ad86dc46a08e25868488e00, type: 3}
   batteriesText: {fileID: 0}
 --- !u!95 &5233542084414868835
 Animator:

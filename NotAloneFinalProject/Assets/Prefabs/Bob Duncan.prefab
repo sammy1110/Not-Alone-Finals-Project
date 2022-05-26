@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 1634444193185242060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.5032, y: -1.879, z: 0}
-  m_LocalScale: {x: 0.92651594, y: 0.90282893, z: 0.8403099}
+  m_LocalScale: {x: 0.6261128, y: 0.7306481, z: 0.8403099}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -132,7 +132,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &632963386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,9 +145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0cd38d98eff4941a882ad2ade712a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 3
   vertical: 0
-  changeTime: 3
+  changeTime: 1
   Hitpoints: 0
   MaxiHitpoints: 5
 --- !u!95 &5085486066162648020

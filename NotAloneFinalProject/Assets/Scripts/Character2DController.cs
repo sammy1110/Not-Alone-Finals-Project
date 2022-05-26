@@ -8,7 +8,7 @@ public class Character2DController : MonoBehaviour
     //AudioSource audioSource;
     //public AudioClip hitSound;
     //public AudioClip throwSound;
-    //Animator animator;
+    Animator animator;
     
     Vector2 lookDirection = new Vector2(1, 0);
 
@@ -36,7 +36,7 @@ public class Character2DController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         boxcollider2d = GetComponent<BoxCollider2D>();
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         currentHealth = maxHealth;
     }
 
