@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    //public AudioClip collectedClip;
+    
     private int batteries = 0;
 
     [SerializeField] private Text batteriesText;

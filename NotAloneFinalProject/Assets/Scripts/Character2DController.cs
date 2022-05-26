@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Character2DController : MonoBehaviour
 {
-
-    //AudioSource audioSource;
-    //public AudioClip hitSound;
-    //public AudioClip throwSound;
-    Animator animator;
     
     Vector2 lookDirection = new Vector2(1, 0);
 
@@ -19,6 +14,7 @@ public class Character2DController : MonoBehaviour
 
     private Rigidbody2D rigidbody2d;
     private BoxCollider2D boxcollider2d;
+    private Animator animator;
 
     public int maxHealth = 100;
     int currentHealth;
@@ -30,6 +26,7 @@ public class Character2DController : MonoBehaviour
     public float timeInvincible = 2.0f;
     bool isInvincible;
     float invincibleTimer;
+    public GameObject player;
 
     // Start is called before the first frame update
     private void Start()
@@ -38,13 +35,23 @@ public class Character2DController : MonoBehaviour
         boxcollider2d = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
+        
     }
 
-    private void Update()
+    public void Update()
     {
 
         var movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
+
+        if (movement == 0)
+        {
+            animator.SetBool("isRunning", false);
+        }else
+        {
+            animator.SetBool("isRunning", true);
+        }
+
 
         if (IsGrounded() && Input.GetKeyDown(KeyCode.Space))
         {
@@ -52,10 +59,16 @@ public class Character2DController : MonoBehaviour
             rigidbody2d.velocity = Vector2.up * JumpVelocity;
 
         }
+        
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Instantiate(ProjectilePrefab, LaunchOffset.position, transform.rotation);
+            animator.SetBool("isShooting", true);
+        }
+        else
+        {
+            animator.SetBool("isShooting", false);
         }
 
         if (!Mathf.Approximately(0, movement))
@@ -69,6 +82,20 @@ public class Character2DController : MonoBehaviour
             if (invincibleTimer < 0)
                 isInvincible = false;
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
+            if(hit.collider != null)
+            {
+                NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
+                if (character != null)
+                {
+                    character.DisplayDialog();
+                }
+            }
+        }
+
     }
 
 
@@ -82,9 +109,18 @@ public class Character2DController : MonoBehaviour
     {
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+
+        if (currentHealth <= 0)
+        {
+
+            currentHealth = 0;
+            GetComponent<Character2DController>().enabled = false;
+            animator.SetTrigger("Death");
+
+        }
        
     }
 
-   
+  
    
 }
